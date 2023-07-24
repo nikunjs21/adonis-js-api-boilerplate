@@ -81,7 +81,7 @@ const bodyParserConfig: BodyParserConfig = {
   */
   raw: {
     encoding: 'utf-8',
-    limit: '1mb',
+    limit: '20gb',
     queryString: {},
     types: ['text/*'],
   },
@@ -188,7 +188,7 @@ const bodyParserConfig: BodyParserConfig = {
     | and fields data.
     |
     */
-    limit: '20mb',
+    limit: '20gb',
 
     /*
     |--------------------------------------------------------------------------

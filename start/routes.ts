@@ -32,6 +32,8 @@ Route.group(() => {
   }).middleware('auth:api')
 }).prefix('api')
 
+Route.post('/upload', 'FilesController.uploadAndProcessFile')
+
 Route.get('/', async () => {
   return { hello: 'world' }
 })
